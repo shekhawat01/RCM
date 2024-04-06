@@ -7,7 +7,7 @@ import base.BaseTest;
 import utilitise.RandomNumber;
 import utilitise.Readxlsdata;
 
-public class AddUser extends BaseTest{
+public class AddUserTest extends BaseTest{
 	
 	@Test(dataProviderClass=Readxlsdata.class,dataProvider="bdd")
 	public static void adduser(String name, String email, String phone) throws InterruptedException {

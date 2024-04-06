@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import base.BaseTest;
 import utilitise.Readxlsdata;
 
-public class LoginPage extends BaseTest{
+public class LoginPageTest extends BaseTest{
 	
 	@Test(dataProviderClass=Readxlsdata.class,dataProvider="bdd")
 	public static void login(String username, String password) throws InterruptedException {
